@@ -16,12 +16,12 @@ void swap_ints(int *a, int *b)
 
 /**
  * bubble_sort - Sort an array of integers in ascending order.
- * @array: an array of integers to sort.
+ * @array: An array of integers to sort.
  * @size: The size of the array.
  *
- * Description: Prits the array after each swap.
+ * Description: Prints the array after each swap.
  */
-void bubblie_sort(int *array, size_t size)
+void bubble_sort(int *array, size_t size)
 {
 	size_t i, len = size;
 	bool bubbly = false;
