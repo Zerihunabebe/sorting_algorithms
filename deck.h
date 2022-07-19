@@ -19,10 +19,10 @@ typedef enum kind_e
 } kind_t;
 
 /**
- * struct card_s - playing card
+ * struct card_s - Playing card
  *
  * @value: Value of the card
- * From "Ace" to "king"
+ * From "Ace" to "King"
  * @kind: Kind of the card
  */
 typedef struct card_s
@@ -36,7 +36,7 @@ typedef struct card_s
  *
  * @card: Pointer to the card of the node
  * @prev: Pointer to the previous node of the list
- * @next: nextointer to the next node of the list
+ * @next: Pointer to the next node of the list
  */
 typedef struct deck_node_s
 {
